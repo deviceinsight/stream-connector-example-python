@@ -4,5 +4,4 @@ ADD stream-connector.py /usr/src/app/stream-connector.py
 
 WORKDIR /usr/src/app
 
-# Disable buffering
 CMD [ "python", "-u", "./stream-connector.py" ]
